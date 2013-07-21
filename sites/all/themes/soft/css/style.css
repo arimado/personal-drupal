@@ -1,0 +1,277 @@
+html, body, h1, h2 {
+	margin: 0;
+	padding: 0;
+}
+
+html, body {
+	height: 100%;
+	font-family: helvetica;
+}
+
+#pull {
+	display: none;
+}
+
+#header {
+	width: 250px;
+	border-right: 6px solid #E6E6E6;
+	height: 100%;
+	float: left;
+	position: fixed;
+	top: 0;
+}
+
+.sidebarMenu ul {
+	list-style-type: none;
+	display: block;
+	margin: 0;
+	height: 100%;
+	padding: 25px;
+	padding-left: 0px;
+	width: 100%;
+}
+
+
+
+.sidebarMenu ul li {
+	font-weight: bold;
+	text-decoration: none;
+	margin-bottom: 10px;
+	width: 100%;
+	padding: 0;
+}
+
+.grey-line {
+	
+}
+
+.sidebarMenu ul li a {
+	text-decoration: none;
+	color: grey;
+	padding: 10px;
+	width: 70%;
+	display: inline-block;
+}
+
+.sidebarMenu ul li a:hover {
+	background: #F0F0F0;
+	border-right: 3px solid #F0F0F0;
+}
+
+.floatMenu li {
+}
+
+/* ------------------- PROFILE
+*/ 
+
+
+.profile {
+	color: #b8b8b8;
+}
+
+
+.profile a {
+	text-decoration: none;
+}
+
+.profileImg {
+	width: 100px;
+	margin: auto;
+	margin-top: 25px;
+}
+
+.profileImg img {
+	width: 100%;
+}
+
+.profileBlurb {
+	font-size: 17px;
+	font-weight: bold;
+	width: 200px;
+	margin: auto;
+	line-height: 23px;
+}
+
+/* ----------------------- CONTENT
+*/ 
+
+#content {
+	padding: 0;
+	height: 100%;
+	margin-left: 250px;
+}
+
+#content h2 {
+	margin-bottom: 15px;
+}
+
+#content h2 a {
+	color: #b8b8b8;
+	text-decoration: none;
+}
+
+.date a {
+	font-weight: bold;
+	color: white;
+	background: #F0DD62;
+	padding: 3px;
+	display: inline-block;
+	font-size: 14px;
+	text-decoration: none;
+}
+
+.post-content-post {
+	padding: 25px 50px 25px 50px;
+}
+
+.post-content {
+	padding: 25px 50px 25px 50px;
+
+}
+
+.post-content:hover {
+	background: #F0F0F0;
+	cursor: pointer;
+}
+
+.post-body {
+	font-size: 14px;
+	line-height: 24px;
+	color: #666;
+}	
+
+
+/*---------------------------------- PROJECT
+*/
+
+.folio a {
+	color: #b8b8b8;
+}
+
+
+
+.folio-post {
+	padding-left: 50px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	position: relative;
+	overflow: auto;
+	
+}
+.folio-post:hover {
+	background: #F0F0F0;
+}
+
+.folio-pic {
+	float: left;
+	position: absolute;
+}
+
+.folio-pic img {
+	display: block;
+	padding: 0;
+	margin: 0;
+	max-width: 100px;
+	max-height: 100px;
+}
+
+.folio-txt {
+	padding-left: 20px;
+	float: left;
+	margin-left: 100px;
+}
+
+.folio-title {
+}
+
+.folio-title a {
+	font-size: 70px;
+	font-weight: bold;
+	color: #b8b8b8;
+	text-decoration: none;
+}
+
+.blurb {
+	color: #b8b8b8;
+	margin-left: 10px;
+}
+
+/*--------------------- ABOUT PAGE
+*/ 
+
+.about-content {
+	padding: 25px 50px 25px 50px;
+}
+
+.about-content h2 {
+	color: #b8b8b8;
+	font-size: 40px;
+}
+
+.about-content {
+	color: #666;
+}
+
+.about-content p {
+	line-height: 26px;
+	font-size: 14px;
+}
+
+.about-content li:first-child {
+	font-weight: bold;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	text-transform: uppercase;
+}
+
+.about-content li {
+	margin-bottom: 10px;
+	font-size: 13px;
+}
+
+.about-content ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+/*---------------------------------------- POST-CONTENT 
+*/
+
+.post-content-post {
+	padding: 25px 50px 25px 50px;
+}
+
+.post-content-post img {
+	margin: auto;
+	display: block;
+	width: 100%;
+	max-width: 800px;
+}
+
+.post-content-post p {
+	line-height: 26px;
+	font-size: 14px;
+	color: #666;
+}
+
+.post-content-post h2 {
+	color: #b8b8b8;
+	font-size: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
