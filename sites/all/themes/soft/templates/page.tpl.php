@@ -69,7 +69,7 @@
  * @see template_process()
  */
 ?>
-
+<link href='http://fonts.googleapis.com/css?family=Karla:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
 <div id="page">
 
   <div id="header" role="banner">

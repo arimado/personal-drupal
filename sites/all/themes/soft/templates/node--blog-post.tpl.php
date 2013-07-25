@@ -92,13 +92,14 @@
 
   <div class="content post-content-post"<?php print $content_attributes; ?>>
     <h2> <?php print render($title); ?> </h2>
-    <img src="http://www.digital-molotov.com/pics/gabber/gabber1.jpg"/>
-    <?php
-      // We hide the comments and links now so that we can render them later.
-      hide($content['comments']);
-      hide($content['links']);
-      print render($content);
-    ?>
+      
+     <?php hide($content['comments']); ?>
+     <?php  hide($content['links']);  ?>
+      <div class="date"><?php print render($content['field_tag'])  ?></div>
+      
+      <?php print render($content['body'])  ?>
+      
+   
   </div>
 
   <?php print render($content['links']); ?>
